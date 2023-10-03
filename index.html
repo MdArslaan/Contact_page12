@@ -9,39 +9,55 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
-<!-- Top section with blue background -->
+<!-- component -->
 <div class="flex items-center justify-center">
-  <!-- This div maintains the blue background -->
-  <div class="w-full md:w-4/12 h-24  bg-blue-950 my-20 relative">
-    
+ <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden my-20">
+   <div class="px-4 py-2 bg-blue-950 md:h-28 h-36">
+    <img src="1.jpg" alt="" class="relative md:top-6 top-14 start-28 w-32 h-32 rounded-full ">
+   </div>
+  <div class="w-96 h-screen bg-white"> 
+
+<h1 class="text-3xl font-semibold text-center pt-14 pb-4">Dilip Joshi </h1>
+  
+
+  <div class="flex items-center space-x-1">
+    <div class="w-10 h-10 bg-blue-950 mx-4 my-8 rounded-full flex items-center justify-center border-2 border-gr-400">
+        <ion-icon name="call-outline" class="text-white drop-shadow-2xl  "></ion-icon>
+    </div>
+    <div class="flex flex-col">
+    <span class="text-lg font-semibold ">PHONE</span>
+    <span class="text-gray-600">123-456-7890</span>
+</div></div>
+
+<div class="flex items-center space-x-2">
+  <div class="w-10 h-10 bg-blue-950 mx-4 my-8 rounded-full flex items-center justify-center border-2 border-green-400">
+      <ion-icon name="female-outline" class="text-white drop-shadow-2xl"></ion-icon>
   </div>
+  <div class="flex flex-col">
+  <span class="text-lg font-semibold">Gender</span>
+  <span class="text-lg text-gray-500">Male</span>
+  
+ </div>
 </div>
 
-<!-- Separate div for the image and information -->
-<div class="relative bottom-20 flex items-center justify-center">
-  <!-- White container for image and information -->
-  <div class="md:bg-white w-full md:w-5/12 md:h-96 h-screen lg:w-2/5 xl:w-4/12 shadow-2xl shadow-blue-950 md:border-2 md:border-gray-500 py-14">
-      <!-- Position the image and text relative to the container -->
-      <div class="  relative  bottom-32">
-          <!-- Profile image -->
-          <img src="1.jpg" alt="" class="w-28 h-28 md:w-36 md:h-36 mx-auto mb-4 rounded-full ring ring-green-500 ring-offset-8 ring-offset-blue-950 hover:scale-110">
-          
-          <!-- Personal information -->
-          <div class="flex flex-col items-center justify-center py-2">
-              <h1 class="text-blue-950 text-4xl md:text-4xl lg:text-4xl font-bold py-2">Dilip Sharma</h1>  
-              <h1 class="text-blue-950 text-2xl md:text-2xl lg:text-2xl py-2">DOB 23/6/2000</h1>
-              <h1 class="text-blue-950 text-2xl md:text-2xl lg:text-2xl py-2">Gender Male</h1>
-              <div class="flex items-center">
-                  <h1 class="text-blue-950 text-2xl md:text-2xl lg:text-2xl px-2">9988007766</h1>
-              </div>
-              <div class="flex items-center">
-                  <ion-icon name="mail-outline" class="w-12 h-12 p-2 "></ion-icon>
-                  <h1 class="text-blue-950 text-2xl md:text-2xl lg:text-2xl">Dilipshama34@gmail.com</h1>
-              </div>
-          </div>
-      </div>
+<div class="flex items-center space-x-2">
+  <div class="w-10 h-10 bg-blue-950 mx-4 my-8  rounded-full flex items-center justify-center border-2 border-green-400">
+    <ion-icon name="calendar-outline"  class="text-white drop-shadow-2xl"></ion-icon>
   </div>
+  <div class="flex flex-col">
+ 
+  <span class="text-lg font-semibold">Age</span>
+  <span class="text-gray-600">24</span>
+</div>
+</div>
+<div class="flex items-center space-x-2">
+  <div class="w-10 h-10 bg-blue-950 mx-4 my-8 rounded-full flex items-center justify-center border-2 border-green-400">
+    <ion-icon name="calendar-outline"  class="text-white drop-shadow-2xl"></ion-icon>
+  </div>
+  <div class="flex flex-col">
+  <span class="text-lg font-semibold">Email</span>
+  <span class="text-gray-600">Dilipjoshi13@gamil.com</span>
+</div>
 </div>
 
 </body>
